@@ -10,6 +10,8 @@
 ### 使い方を知っていて、最小限の調査で済むもの/本番で運用したことがあるもの
 - AWS(EC2, Lambda, RDS, CloudFront, ECS, CodeXXX etc)
 - 英語(reading)
+- 登壇
+  - しくじり先生 on AWS: https://www.youtube.com/watch?v=IQvduOpgF5E
 - LAMP(CakePHP2.x)
 - Node.js
 ### 大まかな仕組み、使い方、なぜ使うかを知っているもの/個人の趣味で使用したことがあるもの
