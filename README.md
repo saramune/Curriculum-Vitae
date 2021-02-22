@@ -9,14 +9,13 @@
 元・開発エンジニア、現・インフラエンジニア（クラウドonly）なのである程度どちらも見れますが、ここ数年はインフラ寄りなので（趣味でちょこちょこやってるとは言え）開発力は落ちています。
 ### 使い方を知っていて、最小限の調査で済むもの/本番で運用したことがあるもの
 - AWS(EC2, Lambda, RDS, CloudFront, ECS, CodeXXX etc)
+- GCP(GCE, Cloud SQL, Network系)
 - 英語(reading)
 - 登壇
   - しくじり先生 on AWS: https://www.youtube.com/watch?v=IQvduOpgF5E
-- LAMP(CakePHP2.x)
-- Node.js
 ### 大まかな仕組み、使い方、なぜ使うかを知っているもの/個人の趣味で使用したことがあるもの
 - Kubernetes周辺技術(Knative, Istio)
-- GCP(GCE, GKE, Cloud Run, Anthos, Firebase)
+- GCP(GKE, Cloud Run, Anthos, Firebase)
 - Python
 - Go
 
@@ -28,11 +27,13 @@
   - ソリューションアーキテクト - プロフェッショナル
   - DevOpsエンジニア - プロフェッショナル
   - セキュリティ – 専門知識
+  - ネットワーク - 専門知識
   - Alexa スキルビルダー – 専門知識
 - Google Cloud Certified
   - Associate Cloud Engineer
   - Professional Cloud Architect
   - Professional Cloud DevOps Engineer
+  - Professional Cloud Network Engineer
 
 ## 強み
 - 聞き上手であること。相手の身になって考える（まだまだ勉強不足なところもあるけど）。
