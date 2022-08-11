@@ -10,11 +10,13 @@
 ### 使い方を知っていて、最小限の調査で済むもの/本番で運用したことがあるもの
 - AWS(EC2, Lambda, RDS, CloudFront, ECS, CodeXXX etc)
 - GCP(GCE, Cloud SQL, Network系)
+- Kubernetes(EKS, ArgoCD, helmfile)
+- Iac(terraform)
 - 英語(reading)
 - 登壇
-  - しくじり先生 on AWS: https://www.youtube.com/watch?v=IQvduOpgF5E
+  - しくじり先生 on AWS(2020): https://www.youtube.com/watch?v=IQvduOpgF5E
+  - 夏のAWS Kubernetes祭り！(2022): https://pages.awscloud.com/JAPAN-event-OE-EIB22-WWSO-Compute-Container-20220804-reg-event.html?trk=aws_event_page
 ### 大まかな仕組み、使い方、なぜ使うかを知っているもの/個人の趣味で使用したことがあるもの
-- Kubernetes周辺技術(Knative, Istio)
 - GCP(GKE, Cloud Run, Anthos, Firebase)
 - Python
 - Go
@@ -39,11 +41,18 @@
   - Professional Cloud Network Engineer
 
 ## 強み
-- 聞き上手であること。相手の身になって考える（まだまだ勉強不足なところもあるけど）。
-- 新しいもの好きであること。業務やそれ以外でも、気になった技術はまず触ってみる、自分で作ってみる。
-- 仕事を前に倒すこと。Done is better than perfectの精神。
+- コツコツできること
+  - 1日5分でも新しい何かを学ぶ
+- 新しいもの好きであること
+  - 業務やそれ以外でも、気になった技術はまず触ってみる、自分で作ってみる
+  - ワクワクする技術が好き
+- 仕事を前に倒すこと
+  - Done is better than perfectの精神
+  - ゴールを具体的にすり合わせつつまずは着手
+  - QCDでいうとD優先
 
 ## やりたいこと
+0→1より1→10が好き。
 mogamingさんのことばをかります。
 
 > 自分は特定の技術領域を極めていくスペシャリストになれると思っていません。自分で起業して自分のサービスを立ち上げたいという気持ちもほとんどありません。仕事で成し遂げたいこと、夢みたいなものを強く持っているわけではないと思います。ただ、そういうものを持っている人はかっこいいと思うし、叶えてほしいと思っています。だからこそ、そういった人たちを支えられる人になりたいなと最近思うようになりました。
