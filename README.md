@@ -5,23 +5,36 @@
 |Name|古屋啓介(Keisuke FURUYA)|
 |Twitter|[@saramune](https://twitter.com/saramune)|
 
+## 所属
+AWS Community Builder(2023 ~)
+
+JAWS-UG SRE支部運営(2022 ~)
+
 ## スキル
 元・開発エンジニア、現・インフラエンジニア（クラウドonly）なのである程度どちらも見れますが、ここ数年はインフラ寄りなので（趣味でちょこちょこやってるとは言え）開発力は落ちています。
 ### 使い方を知っていて、最小限の調査で済むもの/本番で運用したことがあるもの
-- AWS(EC2, Lambda, RDS, CloudFront, ECS, CodeXXX etc)
-- GCP(GCE, Cloud SQL, Network系)
-- Kubernetes(EKS, ArgoCD, helmfile)
-- Iac(terraform)
+- AWS(EC2, Lambda, RDS, CloudFront, Opensearch, ECS, CodeXXX etc)
+- GCP(Cloud Run, GCE, Cloud SQL, Network系)
+- Kubernetes(EKS, Argo CD, helmfile)
+- IaC(Terraform)
 - 英語(reading)
-- 登壇
-  - しくじり先生 on AWS(2020): https://www.youtube.com/watch?v=IQvduOpgF5E
-  - 夏のAWS Kubernetes祭り！(2022): https://pages.awscloud.com/JAPAN-event-OE-EIB22-WWSO-Compute-Container-20220804-reg-event.html?trk=aws_event_page
 ### 大まかな仕組み、使い方、なぜ使うかを知っているもの/個人の趣味で使用したことがあるもの
-- GCP(GKE, Cloud Run, Anthos, Firebase)
+- Kafka
+- HBase
+- GCP(GKE, Anthos, Firebase)
 - Python
 - Go
 
-## 資格
+## 登壇・執筆
+- 登壇
+  - KubernetesとTerraformのセキュリティ/ガバナンス向上委員会 with OPA: https://speakerdeck.com/saramune/gabanansuxiang-shang-wei-yuan-hui-with-opa
+  - 夏のAWS Kubernetes祭り！: https://pages.awscloud.com/JAPAN-event-OE-EIB22-WWSO-Compute-Container-20220804-reg-event.html?trk=aws_event_page
+  - しくじり先生 on AWS: https://www.youtube.com/watch?v=IQvduOpgF5E
+- ブログ
+  - Google Cloud Batchを使ってバッチの処理待ち時間を1/30以下にしたので紹介させて欲しい: https://tech.delm0.jp/entry/2023/04/11/110000
+  - Amazon EventBridgeを使ってChatworkにメッセージを送ってみた: https://creators-note.chatwork.com/entry/2022/09/20/111123
+
+## 資格（失効したものもあり）
 - AWS認定
   - ソリューションアーキテクト – アソシエイト
   - デベロッパー – アソシエイト
@@ -59,9 +72,13 @@ mogamingさんのことばをかります。
 
 ## 最近気になっていること/ことば
 
-DevOps/SRE、Design for Failure、クラウドネイティブ、コンテナ
+DevOps/SRE、Design for Failure、クラウドネイティブ
 
 ## 職務経歴
+### 2022/11 - : 副業
+ インフラエンジニアとしてクラウド環境の構築、運用、改善を実施しています。
+##### 担当業務
+- インフラ設計・インフラ構築
 ### 2022/02 - : SaaS企業
  インフラエンジニアとしてクラウド環境の構築、運用、監視、改善を実施しています。
 ##### 担当業務
