@@ -6,9 +6,9 @@
 |Twitter|[@saramune](https://twitter.com/saramune)|
 
 ## 所属
-AWS Community Builder(2023 ~)
+AWS Community Builder: container (2023 ~)
 
-JAWS-UG SRE支部運営(2022 ~)
+JAWS-UG SRE支部運営 (2022 ~)
 
 ## スキル
 元・開発エンジニア、現・インフラエンジニア（クラウドonly）なのである程度どちらも見れますが、ここ数年はインフラ寄りなので（趣味でちょこちょこやってるとは言え）開発力は落ちています。
@@ -27,10 +27,13 @@ JAWS-UG SRE支部運営(2022 ~)
 
 ## 登壇・執筆
 - 登壇
+  - ACKを活用して使い捨てAWS検証環境を構築している話: https://speakerdeck.com/saramune/ackwohuo-yong-site-shi-ishe-teawsjian-zheng-huan-jing-wogou-zhu-siteiruhua
   - KubernetesとTerraformのセキュリティ/ガバナンス向上委員会 with OPA: https://speakerdeck.com/saramune/gabanansuxiang-shang-wei-yuan-hui-with-opa
   - 夏のAWS Kubernetes祭り！: https://pages.awscloud.com/JAPAN-event-OE-EIB22-WWSO-Compute-Container-20220804-reg-event.html?trk=aws_event_page
   - しくじり先生 on AWS: https://www.youtube.com/watch?v=IQvduOpgF5E
 - ブログ
+  - Creating Network Load Balancer (SG supported) with AWS Load Balancer Controller: https://dev.to/aws-builders/creating-network-load-balancer-sg-supported-with-aws-load-balancer-controller-168p
+  - Managing AWS Resources with ACK and helmfile: https://dev.to/aws-builders/managing-aws-resources-with-ack-and-helmfile-2mo6
   - Google Cloud Batchを使ってバッチの処理待ち時間を1/30以下にしたので紹介させて欲しい: https://tech.delm0.jp/entry/2023/04/11/110000
   - Amazon EventBridgeを使ってChatworkにメッセージを送ってみた: https://creators-note.chatwork.com/entry/2022/09/20/111123
 
@@ -72,17 +75,23 @@ mogamingさんのことばをかります。
 
 ## 最近気になっていること/ことば
 
-DevOps/SRE、Design for Failure、クラウドネイティブ
+o11y, edge, wasm
 
 ## 職務経歴
 ### 2022/11 - : 副業
  インフラエンジニアとしてクラウド環境の構築、運用、改善を実施しています。
 ##### 担当業務
-- インフラ設計・インフラ構築
+- WebアプリケーションのGAEからCloud Runへの移行とterraform化
+- バッチ処理のGCEからCloud Runへの移行とterraform化
+- Batchを使った画像処理のインフラ基盤構築とCD周りの整備
+- BatchとGPUを使った機械学習のインフラ基盤構築
 ### 2022/02 - : SaaS企業
  インフラエンジニアとしてクラウド環境の構築、運用、監視、改善を実施しています。
 ##### 担当業務
-- 要件定義・インフラ設計・インフラ構築・障害対応
+- 検証環境の改善とPR環境の構築
+- ElasticSearchからOpensearchへの移行
+- アプリチームを巻き込んでAuroraのバージョンアップ推進
+- helmfile、Argo CDを用いたEKSの管理（クラスタ更新や諸改善）
 ### 2018/07 - 2022/01: クラウドインテグレーター
  インフラエンジニアとしてクラウド環境の構築、およびクラウド環境を用いたシステムの開発を行っています。〜20台ほどの小規模な案件を多数担当し、内訳はEC2+RDSのWebシステムが大多数ですが、ECSによるアプリケーション開発のコンサルティング、W-Aに則った構築支援も実施しました。
 ##### 担当業務
