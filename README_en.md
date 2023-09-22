@@ -4,15 +4,17 @@
 |Twitter|[@saramune](https://twitter.com/saramune)|
 
 ## Summary
-- 4 years of experience designing, building, and operating cloud infrastructure using AWS
+- 5 years of experience designing, building, and operating cloud infrastructure using AWS
 - Expertise to develop web applications on AWS or GCP
-- Knowledge of developing containerized application includes kubernetes
+- Knowledge of developing containerized application includes Kubernetes
 
 ## Work experience
 ### Chatwork Co., Ltd., Tokyo February 2022-present
 - SRE
   - Build cloud environments and develop systems using cloud environments
   - Eliminating toils by automation
+  - Migrate from ElasticSearch Cluster to Opensearch Cluster
+  - Promote Aurora upgrade
 
 ### iret, Inc., Tokyo July 2018-January 2022
 - Infrastructure engineer
@@ -22,6 +24,13 @@
 ### Itokuro inc., Tokyo January 2016-June 2018
 - Developer
   - Worked on server-side(PHP) development of web application
+
+## Blog post and Slides
+- https://dev.to/aws-builders/creating-network-load-balancer-sg-supported-with-aws-load-balancer-controller-168p
+- https://speakerdeck.com/saramune/ackwohuo-yong-site-shi-ishe-teawsjian-zheng-huan-jing-wogou-zhu-siteiruhua
+- https://dev.to/aws-builders/managing-aws-resources-with-ack-and-helmfile-2mo6
+- https://speakerdeck.com/saramune/gabanansuxiang-shang-wei-yuan-hui-with-opa
+- https://pages.awscloud.com/rs/112-TZM-766/images/20220804-AWS-kubernetes_3_Chatwork.pdf
 
 ## Education
 Master of Computer Science, Kyoto Institute of Technology, Kyoto(2011)
