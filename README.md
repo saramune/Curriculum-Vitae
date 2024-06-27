@@ -14,24 +14,25 @@ JAWS-UG SRE支部運営 (2022 ~)
 元・開発エンジニア、現・インフラエンジニア（クラウドonly）なのである程度どちらも見れますが、ここ数年はインフラ寄りなので（趣味でちょこちょこやってるとは言え）開発力は落ちています。
 ### 使い方を知っていて、最小限の調査で済むもの/本番で運用したことがあるもの
 - AWS(EC2, Lambda, RDS, CloudFront, Opensearch, ECS, CodeXXX etc)
-- GCP(Cloud Run, GCE, Cloud SQL, Network系)
+- Google Cloud(Cloud Run, GCE, Cloud SQL, Network系)
 - Kubernetes(EKS, Argo CD, helmfile)
 - IaC(Terraform)
 - 英語(reading)
 ### 大まかな仕組み、使い方、なぜ使うかを知っているもの/個人の趣味で使用したことがあるもの
-- Kafka
-- HBase
-- GCP(GKE, Anthos, Firebase)
+- Google Cloud(GKE, Anthos, Firebase)
 - Python
 - Go
 
 ## 登壇・執筆
 - 登壇
+  - ChatworkのSRE部って実は 半分くらいPlatform Engineering部かもしれない: https://speakerdeck.com/saramune/chatworknosrebu-tuteshi-ha-ban-fen-kuraiplatform-engineeringbu-kamosirenai
+  - なんでもかんでもコンテナ化すればいいってもんでもないけどなんでもかんでもコンテナ化したらスッキリしました: https://speakerdeck.com/saramune/nandemokandemokontenahua-surebaiitutemondemonaikedo-nandemokandemokontenahua-sitarasutukirisimasita
   - ACKを活用して使い捨てAWS検証環境を構築している話: https://speakerdeck.com/saramune/ackwohuo-yong-site-shi-ishe-teawsjian-zheng-huan-jing-wogou-zhu-siteiruhua
   - KubernetesとTerraformのセキュリティ/ガバナンス向上委員会 with OPA: https://speakerdeck.com/saramune/gabanansuxiang-shang-wei-yuan-hui-with-opa
   - 夏のAWS Kubernetes祭り！: https://pages.awscloud.com/JAPAN-event-OE-EIB22-WWSO-Compute-Container-20220804-reg-event.html?trk=aws_event_page
   - しくじり先生 on AWS: https://www.youtube.com/watch?v=IQvduOpgF5E
 - ブログ
+  - EKS Abnormal Notification Received After Deleting Subnet: https://community.aws/content/2huxY9pMSk1DZrE6sanrekAVsEp/eks-abnormal-notification-received-after-deleting-subnet
   - Creating Network Load Balancer (SG supported) with AWS Load Balancer Controller: https://dev.to/aws-builders/creating-network-load-balancer-sg-supported-with-aws-load-balancer-controller-168p
   - Managing AWS Resources with ACK and helmfile: https://dev.to/aws-builders/managing-aws-resources-with-ack-and-helmfile-2mo6
   - Google Cloud Batchを使ってバッチの処理待ち時間を1/30以下にしたので紹介させて欲しい: https://tech.delm0.jp/entry/2023/04/11/110000
@@ -59,10 +60,16 @@ JAWS-UG SRE支部運営 (2022 ~)
 ## できること
 
 ここ数年の自分の働き方を振り返ってみて、ひとことでいうと「事業や組織のためになることをなんでもやる」ことをやってきたな、と思います。
+加えて、最近はいかに周りの人（SREチームメンバや開発チームのひと）が気分良く働けるか、またエンドユーザがどうすれば快適にサービスを利用できるか、というところにフォーカスしている気がします。
+技術によって解決できるものは技術で解決したいし、それ以外の雑務であっても周りの人がよいパフォーマンスを出すためであれば色々巻き取ったりしています。
 - 技術的な側面
   - クラウドインフラ、Kubernetesを中心に扱いつつ開発者の体験をよくするプラットフォームの提供
   - サービスの保守性・可用性を向上させる取り組み
-  - チーム横断的なプロジェクトのファシリテート
+- 技術以外の側面
+  - チームの窓口として振る舞う
+    - チーム間のやりとり
+    - 外部ベンダーとのやりとり
+  - チームメンバ / 開発チームの困りごとの解消
 - ブランド的な側面
   - 各種カンファレンスでの登壇・自社の技術アピール
   - エンジニアサマーインターンシップの運営を行い学生へのアトラクト
@@ -70,17 +77,13 @@ JAWS-UG SRE支部運営 (2022 ~)
   - JAWS-UGのオーガナイズ・Community Builderとしての発信
   - 他社のSREさんとコラボしての勉強会開催
 
-そこまで技術力があるわけではないので、技術x楽しいことの仕掛け人の掛け算が強みなのかなと思っています。
+そこまで技術力があるわけではないので、技術xコミュニケーションハブのようなところが強みなのかなと思っています。
 
 ## やりたいこと
 0→1より1→10が好き。
 mogamingさんのことばをかります。
 
 > 自分は特定の技術領域を極めていくスペシャリストになれると思っていません。自分で起業して自分のサービスを立ち上げたいという気持ちもほとんどありません。仕事で成し遂げたいこと、夢みたいなものを強く持っているわけではないと思います。ただ、そういうものを持っている人はかっこいいと思うし、叶えてほしいと思っています。だからこそ、そういった人たちを支えられる人になりたいなと最近思うようになりました。
-
-## 最近気になっていること/ことば
-
-o11y, edge, wasm
 
 ## 職務経歴
 ### 2022/11 - : 副業
@@ -90,12 +93,18 @@ o11y, edge, wasm
 - バッチ処理のGCEからCloud Runへの移行とterraform化
 - Batchを使った画像処理のインフラ基盤構築とCD周りの整備
 - BatchとGPUを使った機械学習のインフラ基盤構築
+- Cloud SQLのメジャーバージョンアップ検証
 ### 2022/02 - : SaaS企業
  インフラエンジニアとしてクラウド環境の構築、運用、監視、改善を実施しています。
 ##### 担当業務
+- チームリーダとして
+  - チーム間の窓口を担当
+  - メンバの困りごと解消
+- AWSのコストコントロール
+- 開発チームへのSRE活動の啓蒙
+- Platform Engineering観点でのSREロードマップの管理
 - 検証環境の改善とPR環境の構築
 - ElasticSearchからOpensearchへの移行
-- アプリチームを巻き込んでAuroraのバージョンアップ推進
 - helmfile、Argo CDを用いたEKSの管理（クラスタ更新や諸改善）
 ### 2018/07 - 2022/01: クラウドインテグレーター
  インフラエンジニアとしてクラウド環境の構築、およびクラウド環境を用いたシステムの開発を行っています。〜20台ほどの小規模な案件を多数担当し、内訳はEC2+RDSのWebシステムが大多数ですが、ECSによるアプリケーション開発のコンサルティング、W-Aに則った構築支援も実施しました。
