@@ -38,24 +38,12 @@ JAWS-UG SRE支部運営 (2022 ~)
   - Google Cloud Batchを使ってバッチの処理待ち時間を1/30以下にしたので紹介させて欲しい: https://tech.delm0.jp/entry/2023/04/11/110000
   - Amazon EventBridgeを使ってChatworkにメッセージを送ってみた: https://creators-note.chatwork.com/entry/2022/09/20/111123
 
-## 資格（だいたい失効）
+## 資格
 - AWS認定
-  - ソリューションアーキテクト – アソシエイト
-  - デベロッパー – アソシエイト
-  - システムオペレーション (SysOps) アドミニストレーター – アソシエイト
-  - ソリューションアーキテクト - プロフェッショナル
   - DevOpsエンジニア - プロフェッショナル
-  - セキュリティ – 専門知識
-  - ネットワーク - 専門知識
-  - データベース - 専門知識
-  - データ・アナリティクス - 専門知識
   - 機械学習 -　専門知識
-  - Alexa スキルビルダー – 専門知識
 - Google Cloud Certified
   - Associate Cloud Engineer
-  - Professional Cloud Architect
-  - Professional Cloud DevOps Engineer
-  - Professional Cloud Network Engineer
 
 ## できること
 
