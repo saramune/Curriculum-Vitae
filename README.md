@@ -10,8 +10,7 @@ AWS Community Builder: container (2023 ~)
 
 JAWS-UG SRE支部運営 (2022 ~)
 
-## スキル
-元・開発エンジニア、現・インフラエンジニア（クラウドonly）なのである程度どちらも見れますが、ここ数年はインフラ寄りなので（趣味でちょこちょこやってるとは言え）開発力は落ちています。
+## ハードスキル
 ### 使い方を知っていて、最小限の調査で済むもの/本番で運用したことがあるもの
 - AWS(EC2, Lambda, RDS, CloudFront, Opensearch, ECS, CodeXXX etc)
 - Google Cloud(Cloud Run, GCE, Cloud SQL, Network系)
@@ -21,10 +20,13 @@ JAWS-UG SRE支部運営 (2022 ~)
 ### 大まかな仕組み、使い方、なぜ使うかを知っているもの/個人の趣味で使用したことがあるもの
 - Google Cloud(GKE, Anthos, Firebase)
 - Python
-- Go
+- golang
 
 ## 登壇・執筆
 - 登壇
+  - EKS Auto Modeなにそれおいしいの？: https://speakerdeck.com/saramune/eks-auto-modenanisoreoisiino
+  - self-hosted runnersでAWSコスト削減？: https://speakerdeck.com/saramune/self-hosted-runnersdeawskosutoxue-jian
+  - インフラ観点で見るセキュリティ〜4Cモデルに倣って〜: https://speakerdeck.com/saramune/inhuraguan-dian-dejian-rusekiyuritei-4cmoderunifang-tute
   - ChatworkのSRE部って実は 半分くらいPlatform Engineering部かもしれない: https://speakerdeck.com/saramune/chatworknosrebu-tuteshi-ha-ban-fen-kuraiplatform-engineeringbu-kamosirenai
   - なんでもかんでもコンテナ化すればいいってもんでもないけどなんでもかんでもコンテナ化したらスッキリしました: https://speakerdeck.com/saramune/nandemokandemokontenahua-surebaiitutemondemonaikedo-nandemokandemokontenahua-sitarasutukirisimasita
   - ACKを活用して使い捨てAWS検証環境を構築している話: https://speakerdeck.com/saramune/ackwohuo-yong-site-shi-ishe-teawsjian-zheng-huan-jing-wogou-zhu-siteiruhua
@@ -32,27 +34,26 @@ JAWS-UG SRE支部運営 (2022 ~)
   - 夏のAWS Kubernetes祭り！: https://pages.awscloud.com/JAPAN-event-OE-EIB22-WWSO-Compute-Container-20220804-reg-event.html?trk=aws_event_page
   - しくじり先生 on AWS: https://www.youtube.com/watch?v=IQvduOpgF5E
 - ブログ
-  - EKS Abnormal Notification Received After Deleting Subnet: https://community.aws/content/2huxY9pMSk1DZrE6sanrekAVsEp/eks-abnormal-notification-received-after-deleting-subnet
-  - Creating Network Load Balancer (SG supported) with AWS Load Balancer Controller: https://dev.to/aws-builders/creating-network-load-balancer-sg-supported-with-aws-load-balancer-controller-168p
-  - Managing AWS Resources with ACK and helmfile: https://dev.to/aws-builders/managing-aws-resources-with-ack-and-helmfile-2mo6
+  - https://dev.to/saramune
   - Google Cloud Batchを使ってバッチの処理待ち時間を1/30以下にしたので紹介させて欲しい: https://tech.delm0.jp/entry/2023/04/11/110000
   - Amazon EventBridgeを使ってChatworkにメッセージを送ってみた: https://creators-note.chatwork.com/entry/2022/09/20/111123
 
 ## 資格
+AWS も Google Cloud もだいたい全部とりましたがだいたい全部失効しています
 - AWS認定
-  - DevOpsエンジニア - プロフェッショナル
-  - 機械学習 -　専門知識
-- Google Cloud Certified
-  - Associate Cloud Engineer
+  - AWS Certified DevOps Engineer - Professional
+  - AWS Certified Security - Specialty
 
-## できること
+## 今までしてきたこと・考えていること
 
-ここ数年の自分の働き方を振り返ってみて、ひとことでいうと「事業や組織のためになることをなんでもやる」ことをやってきたな、と思います。
-加えて、最近はいかに周りの人（SREチームメンバや開発チームのひと）が気分良く働けるか、またエンドユーザがどうすれば快適にサービスを利用できるか、というところにフォーカスしている気がします。
-技術によって解決できるものは技術で解決したいし、それ以外の雑務であっても周りの人がよいパフォーマンスを出すためであれば色々巻き取ったりしています。
+最近はいかに周りの人（チームメンバや関わるひとたち）が気分良く働けるか、またエンドユーザがどうすれば快適にサービスを利用できるか、というところにフォーカスしている気がします。
+技術によって解決できるものは技術で解決したいし、必ずしも何かを作ることがよいとも限らない（ものを作ると運用しないといけない）ので技術以外で解決できないか模索します。
+
 - 技術的な側面
-  - クラウドインフラ、Kubernetesを中心に扱いつつ開発者の体験をよくするプラットフォームの提供
+  - クラウドインフラ、Kubernetesを扱いつつ開発者の体験をよくするプラットフォームの提供
   - サービスの保守性・可用性を向上させる取り組み
+  - 開発チームの中に入り、セキュリティやインフラ運用の体験向上
+  - AIを使った開発ライフサイクルの導入
 - 技術以外の側面
   - チームの窓口として振る舞う
     - チーム間のやりとり
@@ -63,7 +64,7 @@ JAWS-UG SRE支部運営 (2022 ~)
   - エンジニアサマーインターンシップの運営を行い学生へのアトラクト
 - コミュニティ活性化（かつちょっとブランド）的な側面
   - JAWS-UGのオーガナイズ・Community Builderとしての発信
-  - 他社のSREさんとコラボしての勉強会開催
+  - 他社のエンジニアさんとコラボしての勉強会開催
 
 そこまで技術力があるわけではないので、技術xコミュニケーションハブのようなところが強みなのかなと思っています。
 
@@ -74,6 +75,19 @@ mogamingさんのことばをかります。
 > 自分は特定の技術領域を極めていくスペシャリストになれると思っていません。自分で起業して自分のサービスを立ち上げたいという気持ちもほとんどありません。仕事で成し遂げたいこと、夢みたいなものを強く持っているわけではないと思います。ただ、そういうものを持っている人はかっこいいと思うし、叶えてほしいと思っています。だからこそ、そういった人たちを支えられる人になりたいなと最近思うようになりました。
 
 ## 職務経歴
+### 2025/01 - : SaaS企業
+ セキュリティエンジニアとして開発チームに Embedded され開発業務、セキュリティ文化の情勢、インフラ周りの改善に従事しています。
+##### 担当業務
+- 開発業務
+- セキュリティ
+  - Central Sec Engからの施策伝達
+  - 開発をしながら運用できるセキュリティ向上施策の検討と啓蒙
+  - セキュリティ勉強会の実施
+- インフラ周りの整備改善
+  - インフラ負債の解消
+  - AWSのコストコントロール
+  - インフラダッシュボードの整備と眺める会の実施
+  - インシデントレスポンスの改善と訓練の実施
 ### 2022/11 - : 副業
  インフラエンジニアとしてクラウド環境の構築、運用、改善を実施しています。
 ##### 担当業務
@@ -82,7 +96,7 @@ mogamingさんのことばをかります。
 - Batchを使った画像処理のインフラ基盤構築とCD周りの整備
 - BatchとGPUを使った機械学習のインフラ基盤構築
 - Cloud SQLのメジャーバージョンアップ検証
-### 2022/02 - : SaaS企業
+### 2022/02 - 2024/12: SaaS企業
  インフラエンジニアとしてクラウド環境の構築、運用、監視、改善を実施しています。
 ##### 担当業務
 - チームリーダとして
